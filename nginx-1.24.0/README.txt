@@ -18,3 +18,5 @@ https://nginx.org/en/docs/beginners_guide.html#proxy
 
 # Welcome page
 http://localhost:8080
+
+![Config](https://github.com/p4ndev/nginx-api-gateway/raw/master/nginx-1.24.0/Config.jpg)
