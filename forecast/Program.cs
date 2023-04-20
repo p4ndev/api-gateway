@@ -4,6 +4,7 @@ using Forecast.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSingleton<IForecastServices, ForecastServices>();
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -16,6 +17,5 @@ if (app.Environment.IsDevelopment()){
 }
 
 app.UseHttpsRedirection();
-app.UseAuthorization();
 app.MapControllers();
 app.Run();

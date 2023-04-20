@@ -26,13 +26,11 @@ public class QueryController : ControllerBase{
     }
 
     [HttpGet("encrypt")]
-    public IActionResult Encrypt([FromServices] ICryptoProvider crypto) {
-        return Ok(crypto.Encrypt("Gustavo Henrique"));
-    }
+    public IActionResult Encrypt([FromServices] ICryptoProvider crypto, [FromQuery] string term)
+        => Ok(crypto.Encrypt(term));
 
     [HttpGet("decrypt")]
-    public IActionResult Decrypt([FromServices] ICryptoProvider crypto){
-        return Ok(crypto.Decrypt("UlroMB5zxsYXe7APx7/uNcPUy+W8XL3uTJPQRI1Ai3yl4Kk5AO3AkI13KQSdZ35L"));
-    }
+    public IActionResult Decrypt([FromServices] ICryptoProvider crypto, [FromQuery] string token)
+        => Ok(crypto.Decrypt(token));
 
 }
