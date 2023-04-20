@@ -1,5 +1,6 @@
-﻿using Newtonsoft.Json;
-using States.Domains;
+﻿using States.Domains.Contract;
+using States.Domains.Entity;
+using Newtonsoft.Json;
 
 namespace States.Services;
 

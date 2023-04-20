@@ -1,4 +1,4 @@
-﻿namespace Forecast.ValueObjects;
+﻿namespace Forecast.ValueObject;
 
 public static class Summaries {
     

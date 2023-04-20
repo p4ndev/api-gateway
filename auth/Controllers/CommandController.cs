@@ -1,15 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
+using Auth.Domains.Contract;
+using Auth.Domains.Entity;
 
-namespace auth.Controllers;
+namespace Auth.Controllers;
 
-[ApiController]
 [Route("auth")]
+[ApiController]
+[ProducesResponseType(StatusCodes.Status400BadRequest)]
+[ProducesResponseType(StatusCodes.Status500InternalServerError)]
+[ProducesResponseType(StatusCodes.Status415UnsupportedMediaType)]
 public class CommandController : ControllerBase{
 
-    [HttpPost]
-    public IActionResult Post() => Ok("POST | New user");
+    private readonly IStorageRepository _repository;
 
-    [HttpPut]
-    public IActionResult Put() => Ok("PUT | Edit user");
+    public CommandController(IStorageRepository repository)
+        => _repository = repository;
+
+    [HttpPost]
+    public IActionResult Post([FromBody] User model)
+        => Created("auth", _repository.Add(model));
 
 }

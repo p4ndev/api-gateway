@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Forecast.Services;
-using Forecast.Domains;
+using Forecast.Domains.Contract;
+using Forecast.Domains.Entity;
 
 namespace Forecast.Controllers;
 

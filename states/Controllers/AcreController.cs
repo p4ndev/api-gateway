@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using States.Domains;
+using States.Domains.Contract;
 
 namespace States.Controllers;
 

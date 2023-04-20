@@ -1,4 +1,4 @@
-using States.Domains;
+using States.Domains.Contract;
 using States.Services;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,3 +1,4 @@
+using Forecast.Domains.Contract;
 using Forecast.Services;
 
 var builder = WebApplication.CreateBuilder(args);
