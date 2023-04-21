@@ -36,6 +36,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "nginx-1.24.0", "nginx-1.24.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{8A10C038-AD21-4D2E-9CB0-2F73256ABFF5}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "traefik-v2.9", "traefik-v2.9\", "{96CECCF4-1D1F-43CC-9DBE-2C604548AA42}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54977"
+		Debug.AspNetCompiler.PhysicalPath = "traefik-v2.9\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54977\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54977"
+		Release.AspNetCompiler.PhysicalPath = "traefik-v2.9\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54977\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54977"
+		SlnRelativePath = "traefik-v2.9\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +83,10 @@ Global
 		{532F5673-905C-42DD-B40C-2B90B9394CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{532F5673-905C-42DD-B40C-2B90B9394CA2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{532F5673-905C-42DD-B40C-2B90B9394CA2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{96CECCF4-1D1F-43CC-9DBE-2C604548AA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CECCF4-1D1F-43CC-9DBE-2C604548AA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CECCF4-1D1F-43CC-9DBE-2C604548AA42}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CECCF4-1D1F-43CC-9DBE-2C604548AA42}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +97,7 @@ Global
 		{1018398B-134A-4A0D-A6AE-218A4EFE79D0} = {B14DA78C-2594-4DEC-91D2-E724AB584838}
 		{46921908-EEEA-44E2-8A60-8FCA00CE404D} = {8A10C038-AD21-4D2E-9CB0-2F73256ABFF5}
 		{532F5673-905C-42DD-B40C-2B90B9394CA2} = {8A10C038-AD21-4D2E-9CB0-2F73256ABFF5}
+		{96CECCF4-1D1F-43CC-9DBE-2C604548AA42} = {8A10C038-AD21-4D2E-9CB0-2F73256ABFF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6201A27-BBCD-4A4D-A5B1-ED239FAE6841}

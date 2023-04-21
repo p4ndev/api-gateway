@@ -44,3 +44,22 @@
 2023/04/20 20:18:30 [error] 12792#12620: *87 CreateFile() "C:\nginx-api-gateway\nginx-1.24.0/api_gateway/state/oo" failed (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET /state/oo HTTP/1.1", host: "localhost:8080"
 2023/04/20 20:26:24 [error] 12792#12620: *111 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /state/sp HTTP/1.1", upstream: "http://127.0.0.1:5110/SaoPaulo", host: "localhost:8080", referrer: "http://localhost:8080/"
 2023/04/20 20:26:26 [error] 12792#12620: *111 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /state/sp HTTP/1.1", upstream: "http://[::1]:5110/SaoPaulo", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/04/21 16:13:50 [emerg] 6344#2564: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
+2023/04/21 16:15:58 [notice] 19964#10784: signal process started
+2023/04/21 16:15:58 [error] 19964#10784: OpenEvent("Global\ngx_reload_18448") failed (2: O sistema não pode encontrar o arquivo especificado)
+2023/04/21 16:16:01 [emerg] 20580#13692: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
+2023/04/21 16:16:06 [notice] 8800#8980: signal process started
+2023/04/21 16:16:06 [error] 8800#8980: OpenEvent("Global\ngx_reload_18448") failed (2: O sistema não pode encontrar o arquivo especificado)
+2023/04/21 16:16:14 [notice] 10812#13080: signal process started
+2023/04/21 16:16:14 [error] 10812#13080: OpenEvent("Global\ngx_stop_18448") failed (2: O sistema não pode encontrar o arquivo especificado)
+2023/04/21 16:18:34 [emerg] 8452#6032: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
+2023/04/21 16:18:56 [emerg] 19872#18664: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
+2023/04/21 16:19:11 [notice] 18872#19080: signal process started
+2023/04/21 16:19:11 [error] 18872#19080: OpenEvent("Global\ngx_quit_18448") failed (2: O sistema não pode encontrar o arquivo especificado)
+2023/04/21 16:19:20 [emerg] 9872#20848: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
+2023/04/21 16:20:15 [emerg] 11896#16444: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
+2023/04/21 16:21:17 [emerg] 2760#15048: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
+2023/04/21 16:21:50 [emerg] 15520#16380: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
+2023/04/21 16:23:56 [emerg] 9932#20672: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
+2023/04/21 16:24:35 [notice] 7700#12640: signal process started
+2023/04/21 16:24:35 [error] 7700#12640: OpenEvent("Global\ngx_reload_18448") failed (2: O sistema não pode encontrar o arquivo especificado)
