@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
+using Auth.Domains.Response;
 using Auth.Domains.Contract;
 using Auth.Domains.Entity;
 using Infrastructure;
+using System.Text.Json;
 
 namespace Auth.Controllers;
 
@@ -20,9 +22,14 @@ public class QueryController : ControllerBase{
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public IActionResult Get([FromBody] User model) {
+    public ActionResult<AuthResponse> Get([FromServices] ICryptoProvider crypto, [FromBody] User model) {
+        
         bool found = _repository.Find(model);
-        return found ? Ok() : NotFound();
+        if (!found) return NotFound();
+
+        var response = new AuthResponse(crypto.Encrypt(JsonSerializer.Serialize(model)), DateTime.Now);
+        return Ok(response);
+
     }
 
     [HttpGet("encrypt")]
