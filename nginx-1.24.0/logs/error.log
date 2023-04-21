@@ -1,65 +1,7 @@
-2023/04/20 19:15:55 [notice] 4856#16532: signal process started
-2023/04/20 19:16:00 [notice] 21492#9084: signal process started
-2023/04/20 19:16:00 [error] 21492#9084: CreateFile() "C:\nginx-api-gateway\nginx-1.24.0/logs/nginx.pid" failed (2: O sistema não pode encontrar o arquivo especificado)
-2023/04/20 19:21:17 [notice] 8860#12208: signal process started
-2023/04/20 19:21:22 [notice] 15848#3148: signal process started
-2023/04/20 19:21:22 [error] 15848#3148: CreateFile() "C:\nginx-api-gateway\nginx-1.24.0/logs/nginx.pid" failed (2: O sistema não pode encontrar o arquivo especificado)
-2023/04/20 19:22:22 [error] 9484#15648: *1 CreateFile() "C:\nginx-api-gateway\nginx-1.24.0/html/favicon.ico" failed (2: O sistema não pode encontrar o arquivo especificado), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
-2023/04/20 19:22:57 [notice] 6400#2880: signal process started
-2023/04/20 19:26:50 [notice] 13980#6668: signal process started
-2023/04/20 19:31:16 [error] 19904#14332: *1 CreateFile() "C:\nginx-api-gateway\nginx-1.24.0/html/favicon.ico" failed (2: O sistema não pode encontrar o arquivo especificado), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
-2023/04/20 19:32:02 [notice] 7484#6480: signal process started
-2023/04/20 19:40:19 [emerg] 3392#10204: directive "listen" is not terminated by ";" in C:\nginx-api-gateway\nginx-1.24.0/conf/nginx.conf:124
-2023/04/20 19:41:03 [emerg] 11572#9104: directive "listen" is not terminated by ";" in C:\nginx-api-gateway\nginx-1.24.0/conf/nginx.conf:124
-2023/04/20 19:41:08 [emerg] 7208#20456: directive "listen" is not terminated by ";" in C:\nginx-api-gateway\nginx-1.24.0/conf/nginx.conf:124
-2023/04/20 19:43:42 [error] 11296#6088: *1 "C:/data/up1/index.html" is not found (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:43:47 [error] 11296#6088: *1 "C:/data/up1/index.html" is not found (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:43:48 [error] 11296#6088: *1 "C:/data/up1/index.html" is not found (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:43:54 [error] 11296#6088: *1 CreateFile() "C:/data/up1/data/up1" failed (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET /data/up1 HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:43:58 [error] 11296#6088: *1 CreateFile() "C:/data/up1/data/up1/index.html" failed (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET /data/up1/index.html HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:44:14 [error] 11296#6088: *1 CreateFile() "C:/data/up1/index.html" failed (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:44:18 [error] 11296#6088: *1 "C:/data/up1/index.html" is not found (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:44:20 [error] 11296#6088: *1 "C:/data/up1/index.html" is not found (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:44:57 [error] 11296#6088: *1 "C:/data/up1/index.html" is not found (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:46:01 [notice] 256#20652: signal process started
-2023/04/20 19:46:11 [error] 1400#6860: *9 CreateFile() "C:/data/up1/welcome" failed (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET /welcome HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:46:17 [error] 1400#6860: *9 CreateFile() "C:/data/up1/welcome/index.html" failed (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET /welcome/index.html HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:46:35 [notice] 20224#16256: signal process started
-2023/04/20 19:46:55 [notice] 3824#8684: signal process started
-2023/04/20 19:50:05 [error] 2664#7224: *3 CreateFile() "C:\nginx-api-gateway\nginx-1.24.0/apps/index.htm" failed (2: O sistema não pode encontrar o arquivo especificado), client: 127.0.0.1, server: localhost, request: "GET /index.htm HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:50:36 [notice] 9524#14572: signal process started
-2023/04/20 19:53:07 [notice] 14916#11544: signal process started
-2023/04/20 19:54:17 [notice] 7904#1736: signal process started
-2023/04/20 19:57:14 [notice] 13372#11832: signal process started
-2023/04/20 19:57:32 [error] 12096#11268: *36 CreateFile() "C:\nginx-api-gateway\nginx-1.24.0/apps/swagger/index.html" failed (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET /swagger/index.html HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:57:36 [error] 12096#11268: *36 CreateFile() "C:\nginx-api-gateway\nginx-1.24.0/apps/swagger" failed (2: O sistema não pode encontrar o arquivo especificado), client: 127.0.0.1, server: localhost, request: "GET /swagger HTTP/1.1", host: "localhost:8080"
-2023/04/20 19:57:48 [error] 12096#11268: *36 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /forecast/swagger/index.html HTTP/1.1", upstream: "http://[::1]:5194/forecast/swagger/index.html", host: "localhost:8080"
-2023/04/20 19:57:50 [error] 12096#11268: *36 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /forecast/swagger/index.html HTTP/1.1", upstream: "http://127.0.0.1:5194/forecast/swagger/index.html", host: "localhost:8080"
-2023/04/20 19:57:54 [error] 12096#11268: *36 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /forecast HTTP/1.1", upstream: "http://localhost/forecast", host: "localhost:8080"
-2023/04/20 19:57:56 [error] 12096#11268: *36 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /forecast HTTP/1.1", upstream: "http://localhost/forecast", host: "localhost:8080"
-2023/04/20 20:02:07 [notice] 18656#3200: signal process started
-2023/04/20 20:09:07 [notice] 12308#14292: signal process started
-2023/04/20 20:11:16 [notice] 21260#12652: signal process started
-2023/04/20 20:13:22 [notice] 14324#5620: signal process started
-2023/04/20 20:18:30 [error] 12792#12620: *87 CreateFile() "C:\nginx-api-gateway\nginx-1.24.0/api_gateway/state/oo" failed (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET /state/oo HTTP/1.1", host: "localhost:8080"
-2023/04/20 20:26:24 [error] 12792#12620: *111 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /state/sp HTTP/1.1", upstream: "http://127.0.0.1:5110/SaoPaulo", host: "localhost:8080", referrer: "http://localhost:8080/"
-2023/04/20 20:26:26 [error] 12792#12620: *111 connect() failed (10061: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /state/sp HTTP/1.1", upstream: "http://[::1]:5110/SaoPaulo", host: "localhost:8080", referrer: "http://localhost:8080/"
-2023/04/21 16:13:50 [emerg] 6344#2564: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
-2023/04/21 16:15:58 [notice] 19964#10784: signal process started
-2023/04/21 16:15:58 [error] 19964#10784: OpenEvent("Global\ngx_reload_18448") failed (2: O sistema não pode encontrar o arquivo especificado)
-2023/04/21 16:16:01 [emerg] 20580#13692: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
-2023/04/21 16:16:06 [notice] 8800#8980: signal process started
-2023/04/21 16:16:06 [error] 8800#8980: OpenEvent("Global\ngx_reload_18448") failed (2: O sistema não pode encontrar o arquivo especificado)
-2023/04/21 16:16:14 [notice] 10812#13080: signal process started
-2023/04/21 16:16:14 [error] 10812#13080: OpenEvent("Global\ngx_stop_18448") failed (2: O sistema não pode encontrar o arquivo especificado)
-2023/04/21 16:18:34 [emerg] 8452#6032: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
-2023/04/21 16:18:56 [emerg] 19872#18664: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
-2023/04/21 16:19:11 [notice] 18872#19080: signal process started
-2023/04/21 16:19:11 [error] 18872#19080: OpenEvent("Global\ngx_quit_18448") failed (2: O sistema não pode encontrar o arquivo especificado)
-2023/04/21 16:19:20 [emerg] 9872#20848: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
-2023/04/21 16:20:15 [emerg] 11896#16444: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
-2023/04/21 16:21:17 [emerg] 2760#15048: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
-2023/04/21 16:21:50 [emerg] 15520#16380: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
-2023/04/21 16:23:56 [emerg] 9932#20672: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
-2023/04/21 16:24:35 [notice] 7700#12640: signal process started
-2023/04/21 16:24:35 [error] 7700#12640: OpenEvent("Global\ngx_reload_18448") failed (2: O sistema não pode encontrar o arquivo especificado)
+2023/04/21 16:57:23 [emerg] 13280#2264: CreateDirectory() "C:\api-gateway\nginx-1.24.0/temp/client_body_temp" failed (3: O sistema não pode encontrar o caminho especificado)
+2023/04/21 16:58:28 [error] 20848#20180: *1 CreateFile() "C:\api-gateway\nginx-1.24.0/html/favicon.ico" failed (2: O sistema não pode encontrar o arquivo especificado), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/04/21 17:02:07 [error] 20848#20180: *4 CreateFile() "C:\api-gateway\nginx-1.24.0/html/state/am/a" failed (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET /state/am/a HTTP/1.1", host: "localhost:8080"
+2023/04/21 17:03:03 [error] 20848#20180: *4 CreateFile() "C:\api-gateway\nginx-1.24.0/html/api/rawdata" failed (3: O sistema não pode encontrar o caminho especificado), client: 127.0.0.1, server: localhost, request: "GET /api/rawdata HTTP/1.1", host: "localhost:8080"
+2023/04/21 17:03:28 [notice] 15336#1612: signal process started
+2023/04/21 17:03:33 [notice] 4836#3784: signal process started
+2023/04/21 17:03:33 [error] 4836#3784: CreateFile() "C:\api-gateway\nginx-1.24.0/logs/nginx.pid" failed (2: O sistema não pode encontrar o arquivo especificado)
