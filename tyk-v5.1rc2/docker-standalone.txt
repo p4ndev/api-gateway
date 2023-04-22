@@ -1,0 +1,1 @@
+docker run -d --name tyk_gateway --network tyk -p 8080:8080 -v %cd%/tyk.standalone.conf:/opt/tyk-gateway/tyk.conf -v %cd%/apps:/opt/tyk-gateway/apps docker.tyk.io/tyk-gateway/tyk-gateway:latest
