@@ -1,0 +1,23 @@
+{
+    "/forecast": {
+        "target": "http://localhost:8083/query",
+        "secure": false,
+        "pathRewrite": { "^/forecast" : "" }
+    },
+    "/state": {
+        "target": "http://localhost:8082",
+        "secure": false,
+        "pathRewrite": {
+            "^/state/ac" : "http://localhost:8082/Acre",
+            "^/state/sp" : "http://localhost:8082/SaoPaulo",
+            "^/state/to" : "http://localhost:8082/Tocantins"
+        }
+    },
+    "/auth": {
+        "target": "http://localhost:8081",
+        "secure": false,
+        "pathRewrite": { 
+            "^/auth" : "http://localhost:8081/auth"
+        }
+    }
+}
