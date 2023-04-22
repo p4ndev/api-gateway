@@ -57,6 +57,29 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "traefik-v2.9", "traefik-v2.
 		SlnRelativePath = "traefik-v2.9\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "tyk-v5.1rc2", "tyk-v5.1rc2\", "{1A36945B-D47C-4134-8CCA-77B357DEBF28}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51472"
+		Debug.AspNetCompiler.PhysicalPath = "tyk-v5.1rc2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51472\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51472"
+		Release.AspNetCompiler.PhysicalPath = "tyk-v5.1rc2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51472\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51472"
+		SlnRelativePath = "tyk-v5.1rc2\"
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ocelot-api-gateway", "ocelot-api-gateway\ocelot-api-gateway.csproj", "{0A4C4CFE-EAB6-4CDB-8C96-1FF11AEF8F48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +110,14 @@ Global
 		{96CECCF4-1D1F-43CC-9DBE-2C604548AA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96CECCF4-1D1F-43CC-9DBE-2C604548AA42}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{96CECCF4-1D1F-43CC-9DBE-2C604548AA42}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1A36945B-D47C-4134-8CCA-77B357DEBF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A36945B-D47C-4134-8CCA-77B357DEBF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A36945B-D47C-4134-8CCA-77B357DEBF28}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A36945B-D47C-4134-8CCA-77B357DEBF28}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0A4C4CFE-EAB6-4CDB-8C96-1FF11AEF8F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4C4CFE-EAB6-4CDB-8C96-1FF11AEF8F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4C4CFE-EAB6-4CDB-8C96-1FF11AEF8F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4C4CFE-EAB6-4CDB-8C96-1FF11AEF8F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +129,8 @@ Global
 		{46921908-EEEA-44E2-8A60-8FCA00CE404D} = {8A10C038-AD21-4D2E-9CB0-2F73256ABFF5}
 		{532F5673-905C-42DD-B40C-2B90B9394CA2} = {8A10C038-AD21-4D2E-9CB0-2F73256ABFF5}
 		{96CECCF4-1D1F-43CC-9DBE-2C604548AA42} = {8A10C038-AD21-4D2E-9CB0-2F73256ABFF5}
+		{1A36945B-D47C-4134-8CCA-77B357DEBF28} = {8A10C038-AD21-4D2E-9CB0-2F73256ABFF5}
+		{0A4C4CFE-EAB6-4CDB-8C96-1FF11AEF8F48} = {8A10C038-AD21-4D2E-9CB0-2F73256ABFF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6201A27-BBCD-4A4D-A5B1-ED239FAE6841}
