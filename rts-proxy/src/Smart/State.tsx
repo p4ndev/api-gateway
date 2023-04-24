@@ -17,9 +17,7 @@ export default function State({ UF } : Props) {
     }, []);
 
     return (
-        <th>
-            <h2>{ UF } | {total}</h2>
-        </th>
+        <h2>{ UF } | {total}</h2>
     );
 
 }
